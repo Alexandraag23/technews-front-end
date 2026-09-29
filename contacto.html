@@ -1,81 +1,50 @@
-<!DOCTYPE html>
-<html lang="es">
+<form id="formulario-contacto">
 
-<head>
+    <label for="nombre">
+        Nombre
+    </label>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <input
+        type="text"
+        id="nombre"
+        required
+    >
 
-    <title>Contacto - TechNews</title>
+    <label for="correo">
+        Correo electrónico
+    </label>
 
-    css/estilos.css
+    <input
+        type="email"
+        id="correo"
+        required
+    >
 
-</head>
+    <label for="asunto">
+        Asunto
+    </label>
 
-<body>
+    <input
+        type="text"
+        id="asunto"
+        required
+    >
 
-<header>
+    <label for="mensaje">
+        Mensaje
+    </label>
 
-    <h1>TechNews</h1>
+    <textarea
+        id="mensaje"
+        required>
+    </textarea>
 
-    <nav>
-        index.htmlInicio</a>
-        noticias.htmlNoticias</a>
-        favoritos.htmlFavoritos</a>
-        contacto.htmlContacto</a>
-    </nav>
+    <button type="submit">
+        Enviar
+    </button>
 
-</header>
+</form>
 
-<main>
-
-    <h2>Contáctanos</h2>
-
-    <form id="formulario-contacto">
-
-        <label for="nombre">Nombre</label>
-        <input
-            type="text"
-            id="nombre"
-            required
-        >
-
-        <label for="correo">Correo electrónico</label>
-        <input
-            type="email"
-            id="correo"
-            required
-        >
-
-        <label for="asunto">Asunto</label>
-        <input
-            type="text"
-            id="asunto"
-            required
-        >
-
-        <label for="mensaje">Mensaje</label>
-
-        <textarea
-            id="mensaje"
-            required>
-        </textarea>
-
-        <button type="submit">
-            Enviar mensaje
-        </button>
-
-    </form>
-
-    <p id="confirmacion"></p>
-
-</main>
-
-<footer>
-    <p>TechNews - Noticias de tecnología</p>
-</footer>
+<p id="confirmacion"></p>
 
 js/contacto.jsscript>
-
-</body>
-</html>
