@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "titulo": "La inteligencia artificial transforma la tecnología",
+        "descripcion": "Nuevas herramientas de inteligencia artificial facilitan diferentes tareas digitales.",
+        "categoria": "Inteligencia Artificial",
+        "imagen": "img/ia.jpg"
+    },
+    {
+        "id": 2,
+        "titulo": "Nuevas tendencias en desarrollo web",
+        "descripcion": "El desarrollo web continúa evolucionando con nuevas tecnologías y herramientas.",
+        "categoria": "Desarrollo Web",
+        "imagen": "img/desarrollo-web.jpg"
+    },
+    {
+        "id": 3,
+        "titulo": "La importancia de la ciberseguridad",
+        "descripcion": "La protección de la información es fundamental en los entornos digitales.",
+        "categoria": "Ciberseguridad",
+        "imagen": "img/ciberseguridad.jpg"
+    }
+]
