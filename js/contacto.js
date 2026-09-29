@@ -8,28 +8,24 @@ const confirmacion =
         "confirmacion"
     );
 
-if (formulario) {
+formulario.addEventListener(
+    "submit",
+    function(evento) {
 
-    formulario.addEventListener(
-        "submit",
-        function(evento) {
+        evento.preventDefault();
 
-            evento.preventDefault();
+        if (!formulario.checkValidity()) {
 
-            if (!formulario.checkValidity()) {
+            formulario.reportValidity();
 
-                formulario.reportValidity();
-                return;
-
-            }
-
-            confirmacion.textContent =
-                "¡Gracias por contactarnos! " +
-                "Tu mensaje fue enviado correctamente.";
-
-            formulario.reset();
-
+            return;
         }
-    );
 
-}
+        confirmacion.textContent =
+            "¡Gracias por contactarnos! " +
+            "Tu mensaje fue enviado correctamente.";
+
+        formulario.reset();
+
+    }
+);
