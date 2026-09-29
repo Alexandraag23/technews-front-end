@@ -1,23 +1,50 @@
 [
-    {
-        "id": 1,
-        "titulo": "La inteligencia artificial transforma la tecnología",
-        "descripcion": "Nuevas herramientas de inteligencia artificial facilitan diferentes tareas digitales.",
-        "categoria": "Inteligencia Artificial",
-        "imagen": "img/ia.jpg"
-    },
-    {
-        "id": 2,
-        "titulo": "Nuevas tendencias en desarrollo web",
-        "descripcion": "El desarrollo web continúa evolucionando con nuevas tecnologías y herramientas.",
-        "categoria": "Desarrollo Web",
-        "imagen": "img/desarrollo-web.jpg"
-    },
-    {
-        "id": 3,
-        "titulo": "La importancia de la ciberseguridad",
-        "descripcion": "La protección de la información es fundamental en los entornos digitales.",
-        "categoria": "Ciberseguridad",
-        "imagen": "img/ciberseguridad.jpg"
-    }
+  {
+    "id": 1,
+    "titulo": "La inteligencia artificial transforma la tecnología",
+    "descripcion": "La inteligencia artificial continúa incorporándose a diferentes herramientas digitales.",
+    "contenido": "La inteligencia artificial se ha convertido en una tecnología utilizada para desarrollar herramientas capaces de apoyar diferentes actividades digitales. Su crecimiento está generando nuevas posibilidades para usuarios y desarrolladores.",
+    "categoria": "Inteligencia Artificial",
+    "imagen": "img/inteligencia-artificial.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "Nuevas tendencias en desarrollo web",
+    "descripcion": "El desarrollo web continúa evolucionando con nuevas herramientas y tecnologías.",
+    "contenido": "El desarrollo web evoluciona constantemente. Las nuevas herramientas permiten desarrollar sitios más dinámicos, adaptables y fáciles de utilizar desde diferentes dispositivos.",
+    "categoria": "Desarrollo Web",
+    "imagen": "img/desarrollo-web.jpg"
+  },
+  {
+    "id": 3,
+    "titulo": "La importancia de la ciberseguridad",
+    "descripcion": "La protección de la información es fundamental en los entornos digitales.",
+    "contenido": "La ciberseguridad busca proteger sistemas, dispositivos e información frente a diferentes riesgos digitales. Adoptar buenas prácticas de seguridad ayuda a disminuir la exposición de la información.",
+    "categoria": "Ciberseguridad",
+    "imagen": "img/ciberseguridad.jpg"
+  },
+  {
+    "id": 4,
+    "titulo": "La robótica continúa avanzando",
+    "descripcion": "La automatización permite desarrollar nuevas soluciones tecnológicas.",
+    "contenido": "La robótica combina diferentes áreas de la tecnología para crear sistemas capaces de ejecutar tareas. Actualmente tiene aplicaciones en múltiples entornos.",
+    "categoria": "Robótica",
+    "imagen": "img/robotica.jpg"
+  },
+  {
+    "id": 5,
+    "titulo": "El software continúa transformándose",
+    "descripcion": "Las aplicaciones digitales están presentes en numerosas actividades cotidianas.",
+    "contenido": "El desarrollo de software permite crear soluciones para diferentes necesidades. Las aplicaciones modernas buscan ofrecer experiencias sencillas, rápidas y accesibles.",
+    "categoria": "Software",
+    "imagen": "img/software.jpg"
+  },
+  {
+    "id": 6,
+    "titulo": "Nuevos dispositivos tecnológicos",
+    "descripcion": "Los dispositivos actuales incorporan cada vez más funcionalidades.",
+    "contenido": "Computadores, teléfonos y otros dispositivos tecnológicos continúan incorporando características enfocadas en rendimiento, conectividad y facilidad de uso.",
+    "categoria": "Dispositivos",
+    "imagen": "img/dispositivos.jpg"
+  }
 ]
